@@ -1,0 +1,189 @@
+{
+    "config": {
+        "pitch_range": [
+            21,
+            109
+        ],
+        "beat_res": {
+            "0_4": 4,
+            "4_12": 8,
+            "12_32": 16
+        },
+        "num_velocities": 64,
+        "remove_duplicated_notes": false,
+        "encode_ids_split": "no",
+        "special_tokens": [
+            "PAD_None",
+            "BOS_None",
+            "EOS_None",
+            "MASK_None"
+        ],
+        "use_velocities": true,
+        "use_note_duration_programs": [
+            0
+        ],
+        "use_chords": true,
+        "use_rests": true,
+        "use_tempos": true,
+        "use_time_signatures": true,
+        "use_sustain_pedals": false,
+        "use_pitch_bends": false,
+        "use_programs": true,
+        "use_pitch_intervals": false,
+        "use_pitchdrum_tokens": true,
+        "default_note_duration": 0.5,
+        "programs": [
+            0
+        ],
+        "one_token_stream_for_programs": true,
+        "program_changes": false,
+        "beat_res_rest": {
+            "0_1": 8,
+            "1_2": 4,
+            "2_12": 2
+        },
+        "chord_maps": {
+            "min": [
+                0,
+                3,
+                7
+            ],
+            "maj": [
+                0,
+                4,
+                7
+            ],
+            "dim": [
+                0,
+                3,
+                6
+            ],
+            "aug": [
+                0,
+                4,
+                8
+            ],
+            "sus2": [
+                0,
+                2,
+                7
+            ],
+            "sus4": [
+                0,
+                5,
+                7
+            ],
+            "7dom": [
+                0,
+                4,
+                7,
+                10
+            ],
+            "7min": [
+                0,
+                3,
+                7,
+                10
+            ],
+            "7maj": [
+                0,
+                4,
+                7,
+                11
+            ],
+            "7halfdim": [
+                0,
+                3,
+                6,
+                10
+            ],
+            "7dim": [
+                0,
+                3,
+                6,
+                9
+            ],
+            "7aug": [
+                0,
+                4,
+                8,
+                11
+            ],
+            "9maj": [
+                0,
+                4,
+                7,
+                10,
+                14
+            ],
+            "9min": [
+                0,
+                4,
+                7,
+                10,
+                13
+            ]
+        },
+        "chord_tokens_with_root_note": false,
+        "chord_unknown": null,
+        "num_tempos": 32,
+        "tempo_range": [
+            40,
+            250
+        ],
+        "log_tempos": false,
+        "delete_equal_successive_tempo_changes": false,
+        "time_signature_range": {
+            "8": [
+                3,
+                12,
+                6
+            ],
+            "4": [
+                5,
+                6,
+                3,
+                2,
+                1,
+                4
+            ]
+        },
+        "delete_equal_successive_time_sig_changes": false,
+        "sustain_pedal_duration": false,
+        "pitch_bend_range": [
+            -8192,
+            8191,
+            32
+        ],
+        "max_pitch_interval": 16,
+        "pitch_intervals_max_time_dist": 1,
+        "drums_pitch_range": [
+            27,
+            88
+        ],
+        "ac_polyphony_track": false,
+        "ac_polyphony_bar": false,
+        "ac_polyphony_min": 1,
+        "ac_polyphony_max": 6,
+        "ac_pitch_class_bar": false,
+        "ac_note_density_track": false,
+        "ac_note_density_track_min": 0,
+        "ac_note_density_track_max": 18,
+        "ac_note_density_bar": false,
+        "ac_note_density_bar_max": 18,
+        "ac_note_duration_bar": false,
+        "ac_note_duration_track": false,
+        "ac_repetition_track": false,
+        "ac_repetition_track_num_bins": 10,
+        "ac_repetition_track_num_consec_bars": 4,
+        "additional_params": {
+            "max_bar_embedding": null,
+            "use_bar_end_tokens": false,
+            "add_trailing_bars": false
+        }
+    },
+    "tokenization": "REMI",
+    "miditok_version": "3.0.5.post1",
+    "symusic_version": "0.5.8",
+    "hf_tokenizers_version": "0.21.1"
+}
